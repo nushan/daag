@@ -1,0 +1,682 @@
+body{
+	overflow-x: hidden
+}
+
+p {
+	font-size: 14px;
+	font-family: arial;
+}
+
+/* common */
+.texture{
+background: url(../assets/img/bg.jpg) repeat;
+}
+
+header {
+	background-color: #fff;
+}
+.navbar-default {
+background-color: rgba(0, 0, 0, 0.72);
+border: none;
+}
+
+.primary-menu.active {
+	background-color: #fff;
+}
+
+.primary-menu{
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 50px !important;
+	z-index: 100;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	-webkit-transition: background 1s;
+	-moz-transition: background 1s;
+	-ms-transition: background 1s;
+	-o-transition: background 1s;
+	transition: background 1s;
+}
+
+.top-menu {
+display: table;
+text-align: right;
+}
+.top-menu li {
+	display: inline-block;
+}
+.top-menu li a {
+	font-family: 'Finger Paint', cursive;
+	font-size: 13px;
+	padding-left: 18px;
+	padding-right: 18px;
+	border-bottom: 3px solid transparent;
+	color: #fff;
+}
+.top-menu li a.active {
+	color: #f7a13c;
+	border-color: #f7a13c;
+	text-decoration: none;
+	padding-bottom: 14px;
+
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #f7a13c;
+	text-decoration: none;
+	border-bottom: 3px solid #f7a13c;
+}
+.active .top-menu li a{
+	color: #909090;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: #FFFFFF;
+}
+@media (max-width:767px) {
+	.top-menu {
+	display: block;
+	text-align: center;
+	}
+
+	.top-menu li {
+	display: block;
+	}
+}
+@media(min-width:768px) and (max-width:992px){
+	.navbar-default .navbar-nav li a {
+		font-size: 11px;
+	}
+}
+
+@media(min-width:992px){
+	.navbar-default .navbar-nav li a {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 600px){
+	.img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+/*************************** logo *******************************/
+
+
+header .logo {
+overflow: hidden;
+margin-top: 50px;
+padding: 48px 0;
+}
+
+/*++++++++++++++++++++++++++ Banner Pera ++++++++++++++++++++++++*/
+
+.banner img {
+width: 100%;
+}
+
+/*++++++++++++++++++++++++++ prior to about us ++++++++++++++++++++++++*/
+
+.prior-head {
+font-family: 'Just Me Again Down Here', cursive;
+font-size: 70px;
+margin-bottom: 10px;
+padding-bottom: 45px;
+padding-top: 50px;
+}
+
+.prior-head span {
+color: #f7a13c;
+}
+
+.pera {
+padding-bottom: 50px;
+margin-bottom: 20px;
+}
+
+/*++++++++++++++++++++++++++ let's play work ++++++++++++++++++++++++*/
+.our-work {
+text-align: center;
+margin-bottom: 70px;
+}
+
+.work1 {
+margin-bottom: 20px;
+padding-bottom: 50px;
+}
+
+/*.communication {
+padding-right: 10px;
+}*/
+
+.work2 {
+margin-bottom: 20px;
+padding-bottom: 50px;
+float: right;
+}
+
+.work3 {
+margin-bottom: 20px;
+padding-bottom: 50px;
+}
+
+.work4 {
+margin-bottom: 20px;
+padding-bottom: 50px;
+float: right;
+}
+@media (min-width: 1030px){
+	.our-work img{
+		width: 100%;
+		heiht: auto;
+	}
+}
+/*++++++++++++++++++++++++++ About us ++++++++++++++++++++++++*/
+
+.md-pera {
+	padding-top: 60px;
+}
+
+.md-head{
+	font-family: 'Finger Paint', cursive;
+	text-align: center;
+	font-size: 22px;
+}
+.md-head1 {
+	color: #f7a13c;
+	font-size: 19px;
+	text-decoration: line-through;
+}
+
+.md-speach {
+padding-bottom: 40px;
+margin-bottom: 110px;
+}
+.md-image img {
+	width: 368px;
+	max-width: 100%;
+}
+.director-pera {
+padding-top: 60px;
+padding-left: 69px;
+}
+
+
+.director-head{
+	font-family: 'Finger Paint', cursive;
+	text-align: center;
+	font-size: 22px;
+}
+.director-head1 {
+	color: #f7a13c;
+	font-size: 19px;
+
+}
+
+.director-speach {
+padding-bottom: 40px;
+margin-bottom: 135px;
+background-image: url(../assets/img/bg.jpg);
+}
+
+.director-image {
+	margin-top: -45px !important;
+	height: 370px;
+}
+.director-image img {
+	width: 368px;
+	max-width: 100%;
+}
+
+@media (max-width:992px) {
+	.director-image {
+		margin-top: 30px !important;
+		margin-bottom: 30px !important;
+		height: auto;
+		max-width: 100%;
+	}
+}
+
+.two {
+position: relative;
+}
+.visualizer-pera {
+	padding-top: 60px;
+}
+
+.visualizer-head{
+	font-family: 'Finger Paint', cursive;
+	text-align: center;
+	font-size: 22px;
+}
+.visualizer-head1 {
+	color: #f7a13c;
+	font-size: 19px;
+
+}
+
+.visualizer-speach {
+	padding-bottom: 40px;
+	margin-bottom: 75px;
+}
+
+.client-srvc-pera {
+	padding-top: 60px;
+	padding-left: 69px;
+}
+.visualizer-image img {
+	width: 368px;
+	max-width: 100%;
+}
+
+.client-srvc-head{
+	font-family: 'Finger Paint', cursive;
+	text-align: center;
+	font-size: 22px;
+}
+.client-srvc-head1 {
+	color: #f7a13c;
+	font-size: 19px;
+
+}
+
+.client-srvc-speach {
+	padding-bottom: 40px;
+	margin-bottom: 135px;
+	background-image: url(../assets/img/bg.jpg);
+
+}
+
+.client-srvc-image {
+	margin-top: -45px;
+	height: 340px;
+}
+.client-srvc-image img {
+	width: 368px;
+	max-width: 100%;
+	/*border: 5px solid #f7a13c;
+	padding: 6px 10px 10px 6px;
+	box-shadow: 0px 2px 5px #CA8432;*/
+
+}
+@media(max-width:992px){
+ .client-srvc-image{
+ 	max-width: 100%;
+ 	position: initial;
+ 	margin-bottom: 30px;
+ 	height: auto;
+ 	margin-top: 30px; 
+ }
+}
+
+.hello {
+	text-align: center;
+}
+.hello img {
+	width: 40px;
+}
+.number {
+	font-family: 'Finger Paint', cursive;
+	color: #f7a13c;
+	font-size: 24px;
+}
+
+@media (max-width: 820px){
+	.client-srvc-image {
+	padding-left: 0px;
+	position: initial;
+	margin-top: 30px;
+}
+	.client-srvc-pera {
+	padding-top: 30px;
+	padding-left: 30px;
+}
+	.director-pera {
+	padding-top: 30px;
+	padding-left: 25px;
+}
+}
+/*.small{
+	width: 100%;
+	height: auto;
+}*/
+@media (max-width: 620px) {
+	.emp-image {
+	padding: 0px;
+	position: relative;
+	margin-top: 0px;
+	padding-top: 50px;
+	}
+}
+
+
+@media (max-width: 400px){
+ .small{
+ 	width: 100%;
+ 	height: auto;
+ }
+}
+
+/********************work-list***********************/
+
+#work-list {
+margin-bottom: 50px;
+}
+
+.work-head {
+font-family: 'Just Me Again Down Here', cursive;
+font-size: 70px;
+padding: 30px 0px;
+margin: 30px 0px;
+}
+
+.work-head span {
+	color: #f7a13c;
+}
+
+ul.enlarge{
+list-style-type:none; /*remove the bullet point*/
+margin-left:0;
+}
+ul.enlarge li {
+display: inline-block;
+position: relative;
+z-index: 0;
+margin: 10px 10px 10px 0px;
+background: url(../assets/img/bg.jpg) repeat;
+-webkit-box-shadow: 0 0 6px #999;
+-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+box-shadow: 0 0 6px #999;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+ul.enlarge li a:hover {
+	opacity: 0.7;
+}
+
+/*.enlarge img{
+padding: 6px;
+}*/
+ul.enlarge span{
+position:absolute;
+left: -9999px;
+background-color:#eae9d4;
+padding: 10px;
+font-family: 'Droid Sans', sans-serif;
+font-size:.9em;
+text-align: center; 
+color: #495a62; 
+-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+box-shadow: 0 0 20px rgba(0,0,0, .75);
+-webkit-border-radius: 8px; 
+-moz-border-radius: 8px; 
+border-radius:8px;
+}
+ul.enlarge li:hover{
+background: #404040;
+cursor:pointer;
+}
+ul.enlarge span img{
+padding:2px;
+background:#ccc;
+}
+ul.enlarge li:hover span{ 
+top: -300px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left: -20px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+ul.enlarge li:hover:nth-child(2) span{
+left: -100px; 
+}
+ul.enlarge li:hover:nth-child(3) span{
+left: -200px; 
+}
+/**IE Hacks - see http://css3pie.com/ for more info on how to use CS3Pie and to download the latest version**/
+ul.enlarge img, ul.enlarge span{
+behavior: url(pie/PIE.htc); 
+}
+
+.png-over {
+position: absolute;
+top: 12px;
+right: -10px;
+}
+
+@media (max-width: 330px){
+ .enlarge li{
+ 	width: 100%;
+ 	height: auto;
+ }
+}
+.portfolio1 ul li {
+list-style: none;
+}
+.fancygallery: hover{
+	opacity: .7
+}
+/********************client-list***********************/
+
+.client-head {
+font-family: 'Just Me Again Down Here', cursive;
+font-size: 70px;
+padding: 30px 0px;
+}
+
+.client-head span {
+	color: #f7a13c;
+}
+
+.list-image ul {
+overflow: hidden;
+}
+
+.list-image li {
+list-style: none;
+padding-bottom: 35px;
+}
+
+.list-image1 li {
+list-style: none;
+padding: 35px 0 70px 0;
+}
+
+.list-image {
+/*padding-bottom: 35px;*/
+}
+
+.image-2nd-row {
+/*padding: 35px 0 70px 0;*/
+}
+
+/************contact-us**********/
+
+.contact-area {
+background: url(../assets/img/contact.jpg);
+padding-bottom: 70px;
+}
+.contact-head {
+font-family: 'Just Me Again Down Here', cursive;
+font-size: 70px;
+padding: 30px 0px;
+color: #fff;
+margin-top: 0px;
+}
+
+.contact-head span {
+	color: #f7a13c;
+}
+
+.contact-address .main {
+	color: #fff;
+}
+
+.contact-address .color {
+	color: #f7a13c;
+}
+
+.social ul li {
+float: left;
+padding: 50px 8px 20px 0px;
+list-style: none;
+}
+
+.form-head {
+margin-top: 0px;
+color: #fff;
+font-family: open-sans;
+font-size: 25px;
+}
+
+.form-head span {
+	color: #f7a13c;
+}
+
+input.name {
+height: 40px;
+width: 270px;
+border-radius: 5px;
+margin-bottom: 30px;
+background-color: #606060;
+border: 1px solid #ababab;
+margin-right: 10px;
+padding: 5px 10px;
+}
+
+
+input.email {
+height: 40px;
+width: 270px;
+border-radius: 5px;
+margin-bottom: 30px;
+background-color: #606060;
+border: 1px solid #ababab;
+padding: 5px 10px;
+}
+
+textarea.msg {
+height: 140px;
+width: 100%;
+border-radius: 5px;
+margin-bottom: 30px;
+background-color: #606060;
+border: 1px solid #ababab;
+padding: 5px 10px;
+resize:none;
+}
+
+input[type="submit"] {
+height: 40px;
+width: 88px;
+border-radius: 10px;
+background-color: transparent;
+color: #fff;
+border: 1px solid;
+}
+
+input[type="submit"]:hover {
+	border-color: #f7a13c;
+}
+
+#contact ul li :hover {
+/*opacity: .5;*/
+background: #f7a13c;
+border-radius: 5px;
+}
+
+
+/****************footer*****************/
+
+.footer-area {
+background-color: #111111;
+padding: 16px 0 0px 0;
+}
+
+.foot {
+color: #f7a13c;
+margin: 0px;
+font-size: 11px;
+}
+
+.design {
+color: #606060;
+font-size: 11px;
+}
+
+.powered {
+color: #f7a13c;
+text-decoration: underline;
+}
+
+.powered:hover {
+color: #2a6496;
+text-decoration: none;
+}
+.image-cropper {
+position: relative;
+width: 340px;
+height: 240px;
+overflow: hidden;
+margin-right: 10px;
+margin-bottom: 25px;
+padding-bottom: 25px;
+border: 1px #909090 solid;
+}
+
+/**************** back to top*****************/
+
+.back-to-top {
+position: fixed;
+bottom: 2em;
+right: 0px;
+text-decoration: none;
+color: #fff;
+background-color: #f7a13c;
+font-size: 12px;
+padding: 1em;
+display: none;
+}
+
+.back-to-top:hover {
+background-color: rgba(135, 135, 135, 0.50);
+color: #000;
+text-decoration: none;
+}
+
+/********* slider *********/
+/*
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }*/
