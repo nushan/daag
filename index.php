@@ -222,29 +222,13 @@
             </div>
 
             <div class="row">
-
-                <div class="col-md-6"></div>
-
-                <div class="col-md-6">
-
-                    <div class="row">
-
-                        <div class="our-work col-md-6">
-
-                            <img class="communication" src="assets/img/consultancy.png" alt="feature-img-01">
-
-                        </div>
-
-                        <div class="our-work col-md-6">
-
-                            <img class="social-campaign" src="assets/img/media.png">
-
-                        </div>
-
-                    </div>
-
+                <div class="our-work col-md-3">
+                    <img class="communication" src="assets/img/consultancy.png" alt="feature-img-01">
                 </div>
-
+                <div class="col-md-6"></div>
+                <div class="our-work col-md-3">
+                    <img class="social-campaign" src="assets/img/media.png">
+                </div>
             </div>
 
     </section>
